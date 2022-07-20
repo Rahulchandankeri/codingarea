@@ -11,6 +11,9 @@
 | 5   | [Program to find Vowel Count](#program-to-find-vowel-count)                                                                                                     |
 | 6   | [Grasshopper Grade book](#grasshopper-grade-book)                                                                                                               |
 | 7   | [Count of positive sum of negatives](#count-of-positive-sum-of-negatives)                                                                                       |
+| 8   | [Sum of two lowest positive integers](#sum-of-two-lowest-positive-integers)                                                                                     |
+| 9   | [ ](#)                                                                                                                                                          |
+| 10  | [ ](#)                                                                                                                                                          |
 
 1. ## Capitalize the first letter of the word
 
@@ -191,20 +194,35 @@ countPositivesSumNegatives([0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14])
 
 #
 
-#### Q
+#### Q8
 
-###
+### Sum of two lowest positive integers
 
 ### More Explantion:
 
+Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+
 ### Code:
 
+function sumTwoSmallestNumbers(numbers) {  
+ //Code here
+
+const sumOfTwoSmallNumbers = numbers.sort((a,b) => a - b).slice(0,2).reduce((a, b) => a + b, 0);
+
+    console.log(sumOfTwoSmallNumbers)
+    return sumOfTwoSmallNumbers
+
+}
+sumTwoSmallestNumbers([10, 343445353, 3453445, 3453545353453] )
+
 ```
 
 
 ```
 
-[LIVE HERE]()
+[LIVE HERE](https://jsfiddle.net/rahulchandankeri/8xcb9t61/1/)
 
 **[⬆ Back to Top](#table-of-contents)**
 
