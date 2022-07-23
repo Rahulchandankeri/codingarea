@@ -11,7 +11,7 @@
 | 5   | [Program to find Vowel Count](#program-to-find-vowel-count)                                                                                                     |
 | 6   | [Grasshopper Grade book](#grasshopper-grade-book)                                                                                                               |
 | 7   | [Count of positive sum of negatives](#count-of-positive-sum-of-negatives)                                                                                       |
-| 8   | [Sum of two lowest positive integers](#sum-of-two-lowest-positive-integers)                                                                                     |
+| 8   | [Sum of two lowest positive integers](#Sum-of-two-lowest-positive-integers)                                                                                     |
 | 9   | [ ](#)                                                                                                                                                          |
 | 10  | [ ](#)                                                                                                                                                          |
 
@@ -206,6 +206,9 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 
 ### Code:
 
+
+
+```
 function sumTwoSmallestNumbers(numbers) {  
  //Code here
 
@@ -216,9 +219,6 @@ const sumOfTwoSmallNumbers = numbers.sort((a,b) => a - b).slice(0,2).reduce((a, 
 
 }
 sumTwoSmallestNumbers([10, 343445353, 3453445, 3453545353453] )
-
-```
-
 
 ```
 
